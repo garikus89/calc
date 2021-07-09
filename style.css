@@ -1,0 +1,48 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.convert_block_item{
+    margin-bottom: 15px;
+}
+.insert{
+    display: flex;
+}
+.insert-span{
+    margin-right: 10px;
+}
+#val{
+    margin-right: 10px;
+    height: 15px;
+}
+.insert-result{
+    margin-right: 10px;
+}
+.convert-course-span{
+    margin-right: 5px;
+}
+.convert-course{
+    display: flex;
+    width: 385px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.mail{
+    margin-bottom: 10px;
+}
+.btn{
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: box-shadow 400ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 400ms ease-in-out, color 300ms ease-in-out;
+}
+.btn:hover{
+    background: #d31525;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #e74c3c inset;  
+}

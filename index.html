@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="convert_block_item">
+        <div class="convert-course">
+            <span class="convert-course-span>">Выберите валюту, из которой будем переводить</span>
+            <select id="cur1">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>RUB</option>
+            </select>
+        </div>
+        <div class="convert-course">
+            <span class="convert-course-span">Выберите валюту, в которую будем переводить</span>
+            <select id="cur2">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>RUB</option>
+            </select>
+        </div>  
+        <div class="insert">
+            <span class="insert-span">Ввод валюты: </span>
+            <input type="number" id="val" placeholder="Введите сумму..."/>
+            <span class="insert-result">Сумма в валюте: </span>
+            <div class="convert_block_item">
+                <div class="convert_result">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="mail">
+        <label for="email">Введите свой email:</label>
+        <input type="email" id="email" placeholder="Поле для email">
+    </div>
+    <button class="btn">Записаться на обмен валюты</button>
+</body>
+</html>
